@@ -44,13 +44,15 @@ possible to analytically compute the value of the integral of the absolute error
 practice, the integral is numerically approximated using dozens or hundreds of different
 values of the independent variable x in the range between − 1.0 and +1.0. In actual
 practice, the population size for a run of genetic programming consists of thousands or
-millions of individuals. In actual practice, the crossover operation is commonly performedon about 90% of the individuals in the population; the reproduction operation is performed
+millions of individuals. In actual practice, the crossover operation is commonly performedon 
+about 90% of the individuals in the population; the reproduction operation is performed
 on about 8% of the population; the mutation operation is performed on about 1% of the
 population; and the architecture-altering operations are performed on perhaps 1% of the
 population.
 Lastly the user has to specify the termination criterion.
 4. A reasonable termination criterion for this problem is that the run will continue from
 generation to generation until the fitness of some individual gets below 0.01.
+
 Executional Steps
 Once the human user has performed the preparatory steps, the executional steps shown in the
 flowchart of genetic programming are performed. Genetic programming starts by randomly
@@ -60,4 +62,4 @@ relatively more fit programs from the population. The genetic operations (reprod
 and crossover) are now applied to the selected individuals to create offspring programs.
 In summary, genetic programming I have implemented has automatically created a computer
 program whose output is equal to the values of the quadratic polynomial 5x² - 3x + 8 in the range
-from [-10 11 2]. The coding is self explanatory
+from [-10 11 2]. The coding is self explanator
